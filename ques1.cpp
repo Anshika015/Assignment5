@@ -58,7 +58,8 @@ public:
     void delEnd() {
         if (!head) return;
         if (!head->next) {
-          delete head; head = nullptr; 
+          delete head; 
+            head = nullptr; 
           return;
         }
         Node* t = head;
